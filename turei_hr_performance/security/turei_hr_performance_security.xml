@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record model="ir.module.category" id="module_category_turei_hr_performance">
+            <field name="name">HR Performance Security</field>
+            <field name="sequence">10</field>
+        </record>
+
+        <record id="group_hr_performance_viewer" model="res.groups">
+            <field name="name">Hr Performance Viewer</field>
+            <field name="comment">Module user with general read only access.</field>
+            <field name="category_id" ref="turei_hr_performance.module_category_turei_hr_performance"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        
+
+        <record id="group_hr_performance_manager" model="res.groups">
+            <field name="name">Hr Performance Manager</field>
+            <field name="comment">Module administrator, able to modify configuration data.</field>
+            <field name="category_id" ref="turei_hr_performance.module_category_turei_hr_performance"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+            <field name="users" eval="[(4,ref('base.user_root'))]"/>
+        </record>
+
+
+
+
+    </data>
+
+</openerp>

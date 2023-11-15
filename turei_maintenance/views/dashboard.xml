@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="board_my_dash_view">
+        <field name="name">Maintenance Dashboard</field>
+        <field name="model">maintenance.dashboard</field>
+        <field name="arch" type="xml">
+            <form string="My Dashboard">
+                <board>
+                    <column>
+                        <action name="%(dashboard.dashboard_action_view)d"
+                                view_mode="kanban"/>
+
+                        <action
+                                domain="[('stage_id', '=', 1), ('request_date','&lt;=', time.strftime('%%Y-12-31')),('request_date','&gt;=',time.strftime('%%Y-01-01'))]"
+                                name="%(maintenance.hr_equipment_request_action)d"
+                                string="Peticiones de mantenimiento (Nueva solicitud)"
+                                view_mode="graph"/>
+
+                        <action
+                                domain="[('stage_id', '=', 2), ('request_date','&lt;=', time.strftime('%%Y-12-31')),('request_date','&gt;=',time.strftime('%%Y-01-01'))]"
+                                name="%(maintenance.hr_equipment_request_action)d"
+                                string="Peticiones de mantenimiento (En proceso)"
+                                view_mode="graph"/>
+
+                        <action
+                                domain="[('stage_id', '=', 3), ('request_date','&lt;=', time.strftime('%%Y-12-31')),('request_date','&gt;=',time.strftime('%%Y-01-01'))]"
+                                name="%(maintenance.hr_equipment_request_action)d"
+                                string="Peticiones de mantenimiento (Reparado)"
+                                view_mode="graph"/>
+
+                        <action
+                                domain="['&amp;', '|',('work_type', '!=', 'plan_ciclo'), ('work_type', '=', ''), ('delivered', '!=', True)]"
+                                name="%(turei_maintenance.turei_maintenance_work_order_action)d"
+                                string="Ordenes de trabajo no planificadas (Abiertas)"
+                                view_mode="graph"/>
+
+                        <action
+                                domain="[('state','=', 'cancel')]"
+                                name="%(turei_maintenance.turei_maintenance_work_order_action)d"
+                                string="Ordenes de trabajo (Canceladas)"
+                                view_mode="graph"/>
+
+                    </column>
+                </board>
+            </form>
+        </field>
+    </record>
+
+    <record id="maintenance_dashboard_action_view" model="ir.actions.act_window">
+        <field name="name">Dashboard</field>
+        <field name="res_model">maintenance.dashboard</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <menuitem
+            id="menu_maintenance_dashboard"
+            name="Tablero"
+            parent="maintenance.menu_maintenance_title"
+            action="maintenance_dashboard_action_view"
+            sequence="0"/>
+</odoo>
+
+

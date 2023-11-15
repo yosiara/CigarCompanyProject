@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Employee Form View Inherit -->
+        <record id="turei_performance_hr_view_employee_form_inherit" model="ir.ui.view">
+            <field name="name">turei_performance_hr_view_employee_form_inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//field[@name='code']" position="after">
+                       <field name="is_evaluator"/>
+                       <field name="evaluator_id" domain="[('is_evaluator','=',True)]" options="{'no_create': True, 'no_edit': True}"/>
+                    </xpath>
+
+                </data>
+            </field>
+        </record>
+
+
+
+
+    </data>
+</odoo>

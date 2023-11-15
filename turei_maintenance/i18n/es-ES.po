@@ -1,0 +1,2489 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* turei_maintenance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-12 21:15+0000\n"
+"PO-Revision-Date: 2022-03-12 16:17-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: turei_maintenance
+#: code:addons/turei_maintenance/models/maintenance.py:249
+#, python-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#. module: turei_maintenance
+#: selection:wzd.generate.plan.mtto,year:0 selection:wzd.plan.mtto,year:0
+msgid "2022"
+msgstr "2022"
+
+#. module: turei_maintenance
+#: selection:wzd.generate.plan.mtto,year:0 selection:wzd.plan.mtto,year:0
+msgid "2023"
+msgstr "2023"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid ""
+"<br/>\n"
+"                                    <strong>C. Costo:</strong>"
+msgstr ""
+"<br/>\n"
+"                                    <strong>C. Costo:</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid ""
+"<br/>\n"
+"                                    <strong>Ejecutor:</strong>"
+msgstr ""
+"<br/>\n"
+"                                    <strong>Ejecutor:</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid ""
+"<br/>\n"
+"                                    <strong>Fecha de Solicitud:</strong>"
+msgstr ""
+"<br/>\n"
+"                                    <strong>Fecha de Solicitud:</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<br/><strong>Acciones</strong><br/><br/>"
+msgstr "<br/><strong>Acciones</strong><br/><br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<br/><strong>Causa</strong><br/><br/>"
+msgstr "<br/><strong>Causa</strong><br/><br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<br/><strong>Defecto</strong><br/><br/>"
+msgstr "<br/><strong>Defecto</strong><br/><br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<span class=\"cell-top-left\"><strong>Descripción:</strong></span>"
+msgstr "<span class=\"cell-top-left\"><strong>Descripción:</strong></span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<span class=\"cell-top-left\"><strong>Observaciones:</strong></span><br/><br/>"
+msgstr "<span class=\"cell-top-left\"><strong>Observaciones:</strong></span><br/><br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span class=\"cell-top-left\">ESTRUCTURA</span><br/>"
+msgstr "<span class=\"cell-top-left\">ESTRUCTURA</span><br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>AÑO DE FABRICACION</span>\n"
+"                                <br/>"
+msgstr ""
+"<span>AÑO DE FABRICACION</span>\n"
+"                                <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>AÑOS</span>"
+msgstr "<span>AÑOS</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>CANTIDAD</span>"
+msgstr "<span>CANTIDAD</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>CAPACIDAD DE CARGA</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>CAPACIDAD DE CARGA</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>CICLO DE REPARACIONES</span>"
+msgstr "<span>CICLO DE REPARACIONES</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>CODIFICACION</span>"
+msgstr "<span>CODIFICACION</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>CODIFICACION</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>CODIFICACION</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>DESCRIPCION</span>"
+msgstr "<span>DESCRIPCION</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>DIAS DE TRABAJO/AÑO</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>DIAS DE TRABAJO/AÑO</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>DIAS</span>"
+msgstr "<span>DIAS</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>DIMENSIONES CM</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>DIMENSIONES CM</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>Fases</span>"
+msgstr "<span>Fases</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>HORAS EFECTIVAS DIARIAS</span>"
+msgstr "<span>HORAS EFECTIVAS DIARIAS</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>HORAS</span>"
+msgstr "<span>HORAS</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>IDIOMA</span>"
+msgstr "<span>IDIOMA</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>LINEA Y TIPO DE PRODUCCION</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>LINEA Y TIPO DE PRODUCCION</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>LOCALIZACION</span>"
+msgstr "<span>LOCALIZACION</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>MARCA</span>\n"
+"                                <br/>"
+msgstr ""
+"<span>MARCA</span>\n"
+"                                <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>MESES</span>"
+msgstr "<span>MESES</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>MODELO</span>\n"
+"                                <br/>"
+msgstr ""
+"<span>MODELO</span>\n"
+"                                <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>NOMBRE DEL EQUIPO</span>\n"
+"                                <br/>"
+msgstr ""
+"<span>NOMBRE DEL EQUIPO</span>\n"
+"                                <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>NUM. CARPETA</span>"
+msgstr "<span>NUM. CARPETA</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>NUM. INVENTARIO</span>\n"
+"                                <br/>"
+msgstr ""
+"<span>NUM. INVENTARIO</span>\n"
+"                                <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>NUM. INVENTARIO</span>\n"
+"                               <br/>"
+msgstr ""
+"<span>NUM. INVENTARIO</span>\n"
+"                               <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>NUM.</span>"
+msgstr "<span>NUM.</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>No. Inventario</span>"
+msgstr "<span>No. Inventario</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>No. ORD</span>"
+msgstr "<span>No. ORD</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>No. Tarj. Motor</span>"
+msgstr "<span>No. Tarj. Motor</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid ""
+"<span>Nombre Responsable Prod:____________________________</span><br/>\n"
+"                                    <span>Firma:______________________</span>"
+msgstr ""
+"<span>Nombre Responsable Prod:____________________________</span><br/>\n"
+"                                    <span>Firma:______________________</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>OBSERVACIONES GENERALES</span>"
+msgstr "<span>OBSERVACIONES GENERALES</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>OPERACIONES</span>"
+msgstr "<span>OPERACIONES</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>OTROS EQUIPOS Y/O ACCESORIOS</span>"
+msgstr "<span>OTROS EQUIPOS Y/O ACCESORIOS</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>PAIS DE ORIGEN</span>\n"
+"                                <br/>"
+msgstr ""
+"<span>PAIS DE ORIGEN</span>\n"
+"                                <br/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>POTENCIA</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>POTENCIA</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>PRESION</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>PRESION</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>Parte que Acciona</span>"
+msgstr "<span>Parte que Acciona</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>Pot.</span>"
+msgstr "<span>Pot.</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>RELACION DE CATALAGO</span>"
+msgstr "<span>RELACION DE CATALAGO</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>RELACION DE ELECTROMOTORES</span>"
+msgstr "<span>RELACION DE ELECTROMOTORES</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>REPARACION GENERAL (G)</span>"
+msgstr "<span>REPARACION GENERAL (G)</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>REPARACION PARCIAL (P)</span>"
+msgstr "<span>REPARACION PARCIAL (P)</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>REVISIONES (R)</span>"
+msgstr "<span>REVISIONES (R)</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>RPM</span>"
+msgstr "<span>RPM</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>TEMPERATURA</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>TEMPERATURA</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>TIPO DE ACCIONAMIENTO</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>TIPO DE ACCIONAMIENTO</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid "<span>TITULO</span>"
+msgstr "<span>TITULO</span>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.equipment_report_template
+msgid ""
+"<span>TURNO DE TRABAJO</span>\n"
+"                                <span/>"
+msgstr ""
+"<span>TURNO DE TRABAJO</span>\n"
+"                                <span/>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Empleado</strong>"
+msgstr "<strong>Empleado</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Equipo y No.</strong>"
+msgstr "<strong>Equipo y No.</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Fecha <br/>de<br/> Inicio</strong>"
+msgstr "<strong>Fecha <br/>de<br/> Inicio</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Maquina Lista para el Trabajo</strong>"
+msgstr "<strong>Maquina Lista para el Trabajo</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>ORDEN DE TRABAJO</strong>"
+msgstr "<strong>ORDEN DE TRABAJO</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Observaciones</strong>"
+msgstr "<strong>Observaciones</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Serv. Concluido</strong>"
+msgstr "<strong>Serv. Concluido</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Tiempo</strong>"
+msgstr "<strong>Tiempo</strong>"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "<strong>Trabajo</strong>"
+msgstr "<strong>Trabajo</strong>"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,state:0
+msgid "Abierta"
+msgstr "Abierta"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_creator_id
+msgid "Abre"
+msgstr "Abre"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_update_request_form
+msgid "Actualizar"
+msgstr "Actualizar"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Actualizar Configuracion de Equipos desde Peticiones"
+msgstr "Actualizar Configuracion de Equipos desde Peticiones"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Actualizar Estado de Peticiones desde Ordenes de Trabajo Cerradas"
+msgstr "Actualizar Estado de Peticiones desde Ordenes de Trabajo Cerradas"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Actualizar Estado de Peticiones en Configuracion de Equipos"
+msgstr "Actualizar Estado de Peticiones en Configuracion de Equipos"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_update_request_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_update_request_menu_item
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_update_request_form
+msgid "Actualizar Peticiones de Mantenimiento"
+msgstr "Actualizar Peticiones de Mantenimiento"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Actualizar Peticiones del Taller Secundario desde Configuración de Equipos"
+msgstr "Actualizar Peticiones del Taller Secundario desde Configuración de Equipos"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Agrupar por"
+msgstr "Agrupar por"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.realized_work,type:0
+msgid "Ajustes"
+msgstr "Ajustes"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_amps
+msgid "Amps"
+msgstr "Amps"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_anir
+msgid "Anir"
+msgstr "Anir"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_work_order_menu_asistente
+msgid "Asistente"
+msgstr "Asistente"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_config_work_order_action
+msgid "Asistente para Ordenes de Trabajo del sistema..."
+msgstr "Asistente para Ordenes de Trabajo del sistema..."
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_config_maintenance_action
+msgid "Asistente para carga inicial al sistema..."
+msgstr "Asistente para carga inicial al sistema..."
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_import_wizard_action
+msgid "Asistente para importar datos..."
+msgstr "Asistente para importar datos..."
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_config_work_order_menu_item
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_work_order_form_view
+msgid "Asistente..."
+msgstr "Asistente..."
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_integration_left_menu
+msgid "Asistentes"
+msgstr "Asistentes"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_maintenance_equipment_category
+msgid "Asset Category"
+msgstr "Categoría de activo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_request_year_char
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_year_char
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_year_char
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_year_char
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_year
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_year
+msgid "Año"
+msgstr "Año"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_hr_equipment_request_view_search_inherit
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Año actual"
+msgstr "Año actual"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_year_production
+msgid "Año de Fabricación"
+msgstr "Año de Fabricación"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment,state:0
+msgid "Baja"
+msgstr "Baja"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Borrar Peticiones"
+msgstr "Borrar Peticiones"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_tree_view
+msgid "Brigada"
+msgstr "Brigada"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_maintenance_team_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_maintenance_team_id
+msgid "Brigada de Mantenimiento"
+msgstr "Brigada de Mantenimiento"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment,state:0
+msgid "Bueno"
+msgstr "Bueno"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "CANTIDAD"
+msgstr "CANTIDAD"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "CODIGO"
+msgstr "CODIGO"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.realized_work,type:0
+msgid "Cambio de Pieza"
+msgstr "Cambio de Pieza"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,state:0
+msgid "Cancelada"
+msgstr "Cancelada"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_maintenance_form_view
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_work_order_form_view
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_efficacy_evaluation_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_equipment_parts_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_generate_plan_mtto_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_delivered_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_no_delivered_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_pending_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_planned_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_plan_mtto_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_request_maint_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_resources_consumed_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_update_request_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_work_maint_team_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_work_type_work_report_form
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_quantity
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_quantity
+msgid "Cantidad"
+msgstr "Cantidad"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipment_electric_motor_form_view
+msgid "Caracteristicas Técnicas"
+msgstr "Caracteristicas Técnicas"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_config_maintenance_menu_item
+msgid "Carga inicial..."
+msgstr "Carga inicial..."
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_maintenance,action:0
+msgid "Cargar Ciclo de Mantenimiento a las Peticiones"
+msgstr "Cargar Ciclo de Mantenimiento a las Peticiones"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_work_order,action:0
+msgid "Cargar Orden de Trabajo"
+msgstr "Cargar Orden de Trabajo"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_work_order,action:0
+msgid "Cargar Orden de Trabajo del VERSAT"
+msgstr "Cargar Orden de Trabajo del VERSAT"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_maintenance,action:0
+msgid "Cargar ciclo a las peticiones de mantenimiento"
+msgstr "Cargar ciclo a las peticiones de mantenimiento"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_maintenance,action:0
+msgid "Cargar tiempo al trabajo realizado de las Ord. de Trabajo"
+msgstr "Cargar tiempo al trabajo realizado de las Ord. de Trabajo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_category_id
+msgid "Categoría"
+msgstr "Categoría"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Centro de Costo Ejecuta"
+msgstr "Centro de Costo Ejecuta"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Centro de Costo Recibe"
+msgstr "Centro de Costo Recibe"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Centros de Costos"
+msgstr "Centros de Costos"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,state:0
+msgid "Cerrada"
+msgstr "Cerrada"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Cerrar Mantenimiento"
+msgstr "Cerrar Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_child_ids
+msgid "Child Types"
+msgstr "Child Types"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_config_cycle
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_request_cycle_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_cycle
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_cycle_id
+msgid "Ciclo"
+msgstr "Ciclo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_cycle_maintenance_plan_ids
+msgid "Ciclo Mantenimiento Plan"
+msgstr "Ciclo Mantenimiento Plan"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_cycle_maintenance
+msgid "Ciclo de Mantenimiento"
+msgstr "Ciclo de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_cycles
+msgid "Ciclos"
+msgstr "Ciclos"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_cycle_maintenance_ids
+msgid "Ciclos de mantenimiento"
+msgstr "Ciclos de mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_shutter_id
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Cierra"
+msgstr "Cierra"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_clase
+msgid "Clase"
+msgstr "Clase"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_cohef_maint
+msgid "Coheficiente de eficacia del proceso de mantenimiento"
+msgstr "Coheficiente de eficacia del proceso de mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_config_maintenance
+msgid "Comienza el Plan (Ciclo y Fecha)?"
+msgstr "Comienza el Plan (Ciclo y Fecha)?"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Configuración"
+msgstr "Configuración"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_maintenance_form_view
+msgid "Configuración..."
+msgstr "Configuración..."
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_import_wizard_form_view
+msgid "Configuration..."
+msgstr "Configuración..."
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment,state:0
+msgid "Conservación"
+msgstr "Conservación"
+
+#. module: turei_maintenance
+#: model:res.groups,name:turei_maintenance.group_consultor_user
+msgid "Consultor"
+msgstr "Consultor"
+
+#. module: turei_maintenance
+#: model:ir.module.category,name:turei_maintenance.module_category_mtto_management
+msgid "Control de Mantenimiento"
+msgstr "Control de Mantenimiento"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Correr Plan Otros Talleres a partir de Incidencia"
+msgstr "Correr Plan Otros Talleres a partir de Incidencia"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Correr Plan Secundario a partir de Incidencia"
+msgstr "Correr Plan Secundario a partir de Incidencia"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,state:0
+msgid "Creada"
+msgstr "Creada"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Creador"
+msgstr "Creador"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_create_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_create_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_christism
+msgid "Criticidad"
+msgstr "Criticidad"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_code
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_cycle
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_code
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_code_executor
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_code
+msgid "Código"
+msgstr "Código"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "DESCRIPCION"
+msgstr "DESCRIPCION"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_date_start_others
+msgid "Date Start Other Categorys"
+msgstr "Fecha de Inicio"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_date_start_secundary
+msgid "Date Start Secundary"
+msgstr "Fecha de Inicio"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_date_stop_others
+msgid "Date Stop Other Categorys"
+msgstr "Fecha de Fin"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_date_stop_secundary
+msgid "Date Stop Secundary"
+msgstr "Fecha de Fin"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_date_execute
+msgid "Date executed Push"
+msgstr "Fecha de Ejecución de Corrimiento"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Datos de Cancelación..."
+msgstr "Datos de Cancelación..."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_description
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_note
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Descripción"
+msgstr "Descripción"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_note
+msgid "Descripción del Proveedor"
+msgstr "Descripción del Proveedor"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_date_start
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_date_start
+msgid "Desde"
+msgstr "Desde"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_maintenance,action:0
+msgid "Desmarcar Ciclo y Fecha (Carga Inicial para el Plan Mtto.)"
+msgstr "Desmarcar Ciclo y Fecha (Carga Inicial para el Plan Mtto.)"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_display_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_hr_employee_employee_work_order_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_member_team_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_work_order_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_realized_work_order_id
+msgid "Documento"
+msgstr "Documento"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Domingo"
+msgstr "Domingo"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Duración Ciclo Mantenimeinto"
+msgstr "Duración Ciclo Mantenimeinto"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_cycle_time
+msgid "Duración Ciclo Mantenimeinto (Horas)"
+msgstr "Duración Ciclo Mantenimeinto (Horas)"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Duración del mantenimeinto"
+msgstr "Duración del mantenimeinto"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_duration
+msgid "Duración(Horas)"
+msgstr "Duración(Horas)"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "EMPLEADO"
+msgstr "EMPLEADO"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_comp_value_efficacy
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_value_efficacy
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_efficacy_evaluation_form_view
+msgid "Eficaz"
+msgstr "Eficaz"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_execute_cost_center_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_executor_id
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Ejecuta"
+msgstr "Ejecuta"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_maintenance_form_view
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_work_order_form_view
+msgid "Ejecutar..."
+msgstr "Ejecutar..."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_emitter_id
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Emite"
+msgstr "Emite"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_executor_id
+msgid "Empleado"
+msgstr "Empleado"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_delivered
+msgid "Entregada"
+msgstr "Entregada"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_maintenance_equipment
+msgid "Equipment"
+msgstr "Equipamiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_equipment_electric_motor_ids
+msgid "Equipment electric motor ids"
+msgstr "Equipment electric motor ids"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_equipment_parts_ids
+msgid "Equipment parts ids"
+msgstr "Equipment parts ids"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_equipment_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_equipament_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_equipment_id
+msgid "Equipo"
+msgstr "Equipo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_ready_equipment
+msgid "Equipo Listo"
+msgstr "Equipo Listo"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_team_members_action
+msgid "Equipo de Mantenimeinto"
+msgstr "Equipo de Mantenimeinto"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_team_members
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_team_members_tree_inherit
+msgid "Equipo de Mantenimiento"
+msgstr "Equipo de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_equipment_or_area
+msgid "Equipo según ATM"
+msgstr "Equipo según ATM"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_equipment_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_equipment_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_equipment_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_equipment_ids
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_equipment_id
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_equipaments_menu_item
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipment_electric_motor_form_view
+msgid "Equipos"
+msgstr "Equipos"
+
+#. module: turei_maintenance
+#: code:addons/turei_maintenance/models/work_order.py:140
+#, python-format
+msgid "Error! Cycle not corresponding with maintenance request !!"
+msgstr "Error! Cycle not corresponding with maintenance request !!"
+
+#. module: turei_maintenance
+#: code:addons/turei_maintenance/reports/plan_mtto_report.py:21
+#: code:addons/turei_maintenance/wizard/wzd_generate_plan_mtto.py:43
+#, python-format
+msgid "Error! No hay incidencias registradas para el: %s"
+msgstr "Error! No hay incidencias registradas para el: %s"
+
+#. module: turei_maintenance
+#: code:addons/turei_maintenance/models/maintenance.py:345
+#, python-format
+msgid "Error! No se pueden eliminar peticiones con Estado Reparada"
+msgstr "Error! No se pueden eliminar peticiones con Estado Reparada"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_category_is_secundary
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_is_secundary
+msgid "Es Secundario?"
+msgstr "Es Secundario?"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_is_industrial
+msgid "Es de Mantenimiento Industrial?"
+msgstr "Es de Mantenimiento Industrial?"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_is_end
+msgid "Es la Línea Final?"
+msgstr "Es la Línea Final?"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_is_start
+msgid "Es la Línea Inicial?"
+msgstr "Es la Línea Inicial?"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_is_module
+msgid "Es módulo?"
+msgstr "Es módulo?"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_state
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_state
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Estado"
+msgstr "Estado"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_update_request_form
+msgid ""
+"Este Asistente permite actualizar las Peticiones de Mantenimiento,\n"
+"                                    a partir de la Funcionalidad escogida."
+msgstr ""
+"Este Asistente permite actualizar las Peticiones de Mantenimiento,\n"
+"                                    a partir de la Funcionalidad escogida."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_category_template_data
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipment_category_form_view_inherit
+msgid "Estudio de Lubricación"
+msgstr "Estudio de Lubricación"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_stage
+msgid "Etapas de Mantenimiento"
+msgstr "Etapas de Mantenimiento"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,work_type:0
+msgid "Fabricación de Pieza"
+msgstr "Fabricación de Pieza"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_fabricator
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_fabricator
+msgid "Fabricante"
+msgstr "Fabricante"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_phase
+msgid "Fases"
+msgstr "Fases"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_opening_date
+msgid "Fecha Apertura"
+msgstr "Fecha Apertura"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_closing_date
+msgid "Fecha Cierre"
+msgstr "Fecha Cierre"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_date_end
+msgid "Fecha Fin"
+msgstr "Fecha Fin"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_config_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_date_start
+msgid "Fecha Inicio"
+msgstr "Fecha Inicio"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_date_end
+msgid "Fecha de Cierre"
+msgstr "Fecha de Cierre"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "Fecha de Cierre:"
+msgstr "Fecha de Cierre:"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Fecha de apertura"
+msgstr "Fecha de apertura"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Fecha de cierre"
+msgstr "Fecha de cierre"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_date_cancel
+msgid "Fecha y Hora"
+msgstr "Fecha y Hora"
+
+#. module: turei_maintenance
+#: model:ir.actions.report.xml,name:turei_maintenance.turei_maintenance_equipment_report
+msgid "Ficha Técnica"
+msgstr "Ficha Técnica"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_file
+msgid "File"
+msgstr "Archivo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_category_filename
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_filename
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_review_frequency
+msgid "Frecuencia de Revisión"
+msgstr "Frecuencia de Revisión"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment,state:0
+msgid "Fuera Servicio"
+msgstr "Fuera Servicio"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_options
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_work_type
+msgid "Funcionalidad"
+msgstr "Funcionalidad"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_generate_plan_mtto_report_form
+msgid "Generar"
+msgstr "Generar"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_generate_plan_mtto_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_generate_plan_mtto_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_generate_plan_mtto_report_form
+msgid "Generar Plan de Mantenimiento"
+msgstr "Generar Plan de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.menu_equipment_form
+msgid "Gestionar Equipos"
+msgstr "Gestionar Equipos"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_line_action
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_item_line
+msgid "Gestionar Líneas"
+msgstr "Gestionar Líneas"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_equipment_electric_motor_action
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_item_equipment_electric_motor
+msgid "Gestionar Motores Electricos"
+msgstr "Gestionar Motores Electricos"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_equipment_parts_action
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_item_equipment_parts
+msgid "Gestionar Piezas"
+msgstr "Gestionar Piezas"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_equipment_category_action
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_equipment_category
+msgid "Gestionar Talleres"
+msgstr "Gestionar Talleres"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_hp
+msgid "HP"
+msgstr "HP"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_date_end
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_date_end
+msgid "Hasta"
+msgstr "Hasta"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.action_view_history_work_order
+msgid "Historial OT"
+msgstr "Historial OT"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_history_work_order_count
+msgid "Historial de OT"
+msgstr "Historial de OT"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Hora de Inicio Mantenimeinto"
+msgstr "Hora de Inicio Mantenimeinto"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_start_time
+msgid "Hora de inicio"
+msgstr "Hora de inicio"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Hoy"
+msgstr "Hoy"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_id
+msgid "ID"
+msgstr "ID"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "IMPORTE CUC"
+msgstr "IMPORTE CUC"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "IMPORTE CUP"
+msgstr "IMPORTE CUP"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_import_wizard_form_view
+msgid "Import..."
+msgstr "Importar..."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_action
+msgid "Importar"
+msgstr "Importar"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.import_wizard,action:0
+msgid "Importar Ciclo y Fecha de Inicio para Plan"
+msgstr "Importar Ciclo y Fecha de Inicio para Plan"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.import_wizard,action:0
+msgid "Importar Ciclos de Mantenimientos x Equipos"
+msgstr "Importar Ciclos de Mantenimientos x Equipos"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_integration_wizard_menu_item
+msgid "Importar Datos..."
+msgstr "Importar Datos..."
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.import_wizard,action:0
+msgid "Importar Líneas a los Equipos"
+msgstr "Importar Líneas a los Equipos"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.import_wizard,action:0
+msgid "Importar Motores Electricos"
+msgstr "Importar Motores Electricos"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.import_wizard,action:0
+msgid "Importar Piezas"
+msgstr "Importar Piezas"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,work_type:0
+msgid "Imprevisto-Por Operación"
+msgstr "Imprevisto-Por Operación"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,work_type:0
+msgid "Imprevisto-Técnico"
+msgstr "Imprevisto-Técnico"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Imprevistos"
+msgstr "Imprevistos"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_efficacy_evaluation_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_equipment_parts_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_delivered_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_no_delivered_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_pending_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_planned_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_plan_mtto_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_request_maint_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_resources_consumed_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_work_maint_team_report_form
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_work_type_work_report_form
+msgid "Imprimir"
+msgstr "Imprimir"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_incident_plan_action
+msgid "Incidencias Plan Mantenimiento"
+msgstr "Incidencias Plan Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_item_incident_plan
+msgid "Incidencias Plan de Mantenimiento"
+msgstr "Incidencias Plan de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_name
+msgid "Indicador"
+msgstr "Indicador"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_efficacy_evaluation_ids
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_evaluation_parameter_form_view
+msgid "Indicadores"
+msgstr "Indicadores"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_efficacy_evaluation_action
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_item_efficacy_evaluation
+msgid "Indicadores evaluación de la eficacia"
+msgstr "Indicadores evaluación de la eficacia"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Información General"
+msgstr "Información General"
+
+#. module: turei_maintenance
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_equipment_menu_informes
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_mtto_menu_informes
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_work_order_menu_informes
+msgid "Informes"
+msgstr "Informes"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_category_day_start_maintenance
+msgid "Inicia el mantenimiento"
+msgstr "Inicia el mantenimiento"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,work_type:0
+msgid "Inspección Técnica"
+msgstr "Inspección Técnica"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item
+msgid "Item"
+msgstr "Item"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Jueves"
+msgstr "Jueves"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_kw
+msgid "KW"
+msgstr "KW"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "LISTADO DE RECURSOS EXTRAIDOS"
+msgstr "LISTADO DE RECURSOS EXTRAIDOS"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "LISTADO DEL TRABAJO REALIZADO"
+msgstr "LISTADO DEL TRABAJO REALIZADO"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_pulley_side
+msgid "Lado Polea"
+msgstr "Lado Polea"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_cap_side
+msgid "Lado Tapa"
+msgstr "Lado Tapa"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team___last_update
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_write_uid
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_import_wizard_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_incident_plan_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_efficacy_evaluation_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_equipment_parts_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_delivered_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_no_delivered_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_pending_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_orders_planned_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_maint_team_write_date
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_work_type_work_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Lunes"
+msgstr "Lunes"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_line_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_request_line_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_line_id
+msgid "Línea"
+msgstr "Línea"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_maintenance_request
+msgid "Maintenance Requests"
+msgstr "Peticiones de mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_maintenance_team_id
+msgid "Maintenance Team"
+msgstr "Equipo de mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_maintenance_team
+msgid "Maintenance Teams"
+msgstr "Equipos de mantenimiento"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment,state:0
+msgid "Malo"
+msgstr "Malo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_brand
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_brand
+msgid "Marca"
+msgstr "Marca"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_maintenance,action:0
+msgid "Marcar Ciclo y Fecha (Carga Inicial para el Plan Mtto.)"
+msgstr "Marcar Ciclo y Fecha (Carga Inicial para el Plan Mtto.)"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.config_maintenance,action:0
+msgid "Marcar los equipos de Mantenimiento Industrial"
+msgstr "Marcar los equipos de Mantenimiento Industrial"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Martes"
+msgstr "Martes"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Mes actual"
+msgstr "Mes actual"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_member_id
+msgid "Miembro"
+msgstr "Miembro"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_team_member_ids
+msgid "Miembros..."
+msgstr "Miembros..."
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Miércoles"
+msgstr "Miércoles"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_model
+msgid "Modelo"
+msgstr "Modelo"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_incident_plan_view_search
+msgid "Modelo de control"
+msgstr "Modelo de control"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_hr_equipment_request_view_search_inherit
+msgid "Monthly Period"
+msgstr "Periodo Mensual"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_description_others
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_update_request_description_secundary
+msgid "Motive Description"
+msgstr "Motivo del Corrimiento"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_description_cancel
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Motivo"
+msgstr "Motivo"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.action_view_electric_motor
+msgid "Motores"
+msgstr "Motores"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_equipment_ids
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Motores Electricos"
+msgstr "Motores Electricos"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.realized_work,ready_service:0
+#: selection:turei_maintenance.work_order,ready_equipment:0
+msgid "NO"
+msgstr "NO"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "No"
+msgstr "No"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_comp_value_no_efficacy
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_value_no_efficacy
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_efficacy_evaluation_form_view
+msgid "No Eficaz"
+msgstr "No Eficaz"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "No."
+msgstr "No."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_no_motor
+msgid "No. Motor"
+msgstr "No. Motor"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_serial_no
+msgid "No. Serie"
+msgstr "No. Serie"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_name
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_name
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipment_category_form_view_inherit
+msgid "Nombre de Taller"
+msgstr "Nombre de Taller"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.hr_equipment_request_view_form_inherit
+msgid "Nota(s) de Corrimiento(s) de Plan"
+msgstr "Nota(s) de Corrimiento(s) de Plan"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_number
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_number
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_number
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_number_new
+msgid "Número"
+msgstr "Número"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Número nuevo"
+msgstr "Número nuevo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_note
+msgid "Observaciones"
+msgstr "Observaciones"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_maintenance_action
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_config_work_order_action
+msgid "Opciones"
+msgstr "Opciones"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_efficacy_evaluation_form_view
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_evaluation_parameter_form_view
+#: model:res.groups,name:turei_maintenance.group_manager_user
+msgid "Operador"
+msgstr "Operador"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_unit_value_efficacy
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_unit_cohef_maint
+msgid "Operador Eficaz"
+msgstr "Operador Eficaz"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_unit_value_no_efficacy
+msgid "Operador No Eficaz"
+msgstr "Operador No Eficaz"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.action_view_work_order
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_work_order_count
+msgid "Ord. de Trabajo"
+msgstr "Ord. de Trabajo"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.turei_maintenance_work_order_action
+#: model:ir.actions.report.xml,name:turei_maintenance.turei_maintenance_work_order_report
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_item_work_order
+#: model:ir.ui.menu,name:turei_maintenance.turei_maintenance_work_order_menu_item
+msgid "Orden de Trabajo"
+msgstr "Orden de Trabajo"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.realized_work,type:0
+msgid "Otros"
+msgstr "Otros"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_evaluation_parameter_id
+msgid "Parametro"
+msgstr "Parametro"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_parent_id
+msgid "Parent"
+msgstr "Padre"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_country
+msgid "País"
+msgstr "País"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_request_period_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_period_id
+msgid "Period Monthly"
+msgstr "Periodo Mensual"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Personas implicadas..."
+msgstr "Personas implicadas..."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_value_weight
+msgid "Peso"
+msgstr "Peso"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_maintenance_request_id
+msgid "Petición de Mantenimiento"
+msgstr "Petición de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.action_view_parts
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_item_equipment_parts_id
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Piezas"
+msgstr "Piezas"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Planificadas"
+msgstr "Planificadas"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,work_type:0
+msgid "Planificado x Estado Técnico"
+msgstr "Planificado x Estado Técnico"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.work_order,work_type:0
+msgid "Planificado-Ciclo"
+msgstr "Planificado-Ciclo"
+
+#. module: turei_maintenance
+#: code:addons/turei_maintenance/wizard/wzd_update_request.py:359
+#, python-format
+msgid "Please check and fixed the dates"
+msgstr "Please check and fixed the dates"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_incident_plan_view_search
+msgid "Por año"
+msgstr "Por año"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_product_order_product_id
+msgid "Producto"
+msgstr "Producto"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Productos"
+msgstr "Productos"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_product_order_ids
+msgid "Productos..."
+msgstr "Productos..."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_comp_value_efficacy_industry
+msgid "Puntuación para determinar si el proceso de mantenimiento es eficiente"
+msgstr "Puntuación para determinar si el proceso de mantenimiento es eficiente"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_request_push_description
+msgid "Push Description"
+msgstr "Descripción del Corrimiento de Plan"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_push_name
+msgid "Push Name"
+msgstr "Push Name"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_rpm
+msgid "RPM"
+msgstr "RPM"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_receive_cost_center_id
+msgid "Recibe"
+msgstr "Recibe"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_parts_reference
+msgid "Referencia o Localización"
+msgstr "Referencia o Localización"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment,state:0
+msgid "Regular"
+msgstr "Regular"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_efficacy_evaluation_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_efficacy_evaluation_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_efficacy_evaluation_report_form
+msgid "Rep. Evaluación de la Eficacia"
+msgstr "Rep. Evaluación de la Eficacia"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_orders_delivered_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_orders_delivered_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_delivered_report_form
+msgid "Rep. Ordenes Entregadas"
+msgstr "Rep. Ordenes Entregadas"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_orders_no_delivered_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_orders_no_delivered_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_no_delivered_report_form
+msgid "Rep. Ordenes No Entregadas"
+msgstr "Rep. Ordenes No Entregadas"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_orders_pending_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_orders_pending_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_pending_report_form
+msgid "Rep. Ordenes Pendientes"
+msgstr "Rep. Ordenes Pendientes"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_orders_planned_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_orders_planned_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_orders_planned_report_form
+msgid "Rep. Ordenes Planificadas"
+msgstr "Rep. Ordenes Planificadas"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_request_maint_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_request_maint_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_request_maint_report_form
+msgid "Rep. Peticiones de Mantenimiento"
+msgstr "Rep. Peticiones de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_equipment_parts_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_equipment_parts_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_equipment_parts_report_form
+msgid "Rep. Piezas x Equipos"
+msgstr "Rep. Piezas x Equipos"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_plan_mtto_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_plan_mtto_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_plan_mtto_report_form
+msgid "Rep. Plan de Mantenimiento"
+msgstr "Rep. Plan de Mantenimiento"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_resources_consumed_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_resources_consumed_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_resources_consumed_report_form
+msgid "Rep. Recursos Consumidos"
+msgstr "Rep. Recursos Consumidos"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_work_type_work_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_work_type_work_report_report
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_work_type_work_report_form
+msgid "Rep. Tipo de Órdenes de Trabajo"
+msgstr "Rep. Tipo de Órdenes de Trabajo"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_work_maint_team_report_form
+msgid "Rep. Órdenes por Equipo de Mantenimeinto"
+msgstr "Rep. Órdenes por Equipo de Mantenimeinto"
+
+#. module: turei_maintenance
+#: model:ir.actions.act_window,name:turei_maintenance.wzd_work_maint_team_report_act_window
+#: model:ir.ui.menu,name:turei_maintenance.wzd_work_maint_team_report_report
+msgid "Rep. Órdenes por Equipo de Mantenimiento"
+msgstr "Rep. Órdenes por Equipo de Mantenimiento"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.realized_work,type:0
+msgid "Reparación"
+msgstr "Reparación"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_request_date_maintenance
+msgid "Request Date Maintenance"
+msgstr "Request Date Maintenance"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_special_regime
+msgid "Régimen Especial?"
+msgstr "Régimen Especial?"
+
+#. module: turei_maintenance
+#: selection:turei_maintenance.realized_work,ready_service:0
+#: selection:turei_maintenance.work_order,ready_equipment:0
+msgid "SI"
+msgstr "SI"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_sequence
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_sequence
+msgid "Secuencia"
+msgstr "Secuencia"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_generate_plan_mtto_report_form
+msgid ""
+"Seleccione el año y el taller para generar el Plan de Mantenimiento, tenga en cuenta que antes\n"
+"                                    debe haber introducido al sistema las incidencias..."
+msgstr ""
+"Seleccione el año y el taller para generar el Plan de Mantenimiento, tenga en cuenta que antes\n"
+"                                    debe haber introducido al sistema las incidencias..."
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_maintenance_form_view
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_config_work_order_form_view
+msgid "Seleccione la opción deseada ...."
+msgstr "Seleccione la opción deseada ...."
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_import_wizard_form_view
+msgid ""
+"Seleccione la opción requerida <b>para importar datos</b>, y cargue el archivo\n"
+"                                correspondiente..."
+msgstr ""
+"Seleccione la opción requerida <b>para importar datos</b>, y cargue el archivo\n"
+"                                correspondiente..."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_service
+msgid "Servicio"
+msgstr "Servicio"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_ready_service
+msgid "Servicio Concluido"
+msgstr "Servicio Concluido"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "Si"
+msgstr "Si"
+
+#. module: turei_maintenance
+#: selection:wzd.update_request,options:0
+#: selection:wzd.update_request,work_type:0
+msgid "Sincronizar Peticiones"
+msgstr "Sincronizar Peticiones"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_plan_stage_id
+msgid "Stage"
+msgstr "Etapa"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_subset
+msgid "Subconjunto"
+msgstr "Subconjunto"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_request_sync
+msgid "Sync"
+msgstr "Sync"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Sábado"
+msgstr "Sábado"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_line_taller
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_push_plan_category_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_category_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_generate_plan_mtto_category_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_plan_mtto_category_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_request_maint_category_id
+#: model:ir.model.fields,field_description:turei_maintenance.field_wzd_resources_consumed_category_id
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Taller"
+msgstr "Taller"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_rate
+msgid "Tarifa"
+msgstr "Tarifa"
+
+#. module: turei_maintenance
+#: code:addons/turei_maintenance/models/incident_plan.py:35
+#, python-format
+msgid "The date start not major than date end"
+msgstr "La fecha de fin no puede ser menor que la fecha de inicio, por favor revise !!"
+
+#. module: turei_maintenance
+#: sql_constraint:maintenance.request:0
+msgid "The request maintenance has unique!!"
+msgstr "La petición debe ser única por Equipo, un mismo equipo no puede tener mas de una petición en la misma fecha y con el mismo ciclo!!"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_maintenance_equipment_work_time
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Tiempo de Explotación Diario"
+msgstr "Tiempo de Explotación Diario"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_time
+msgid "Tiempo entre ciclos(Horas)"
+msgstr "Tiempo entre ciclos(Horas)"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_time
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_time_hr
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_time
+msgid "Tiempo(Hr)"
+msgstr "Tiempo(Hr)"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_type
+msgid "Tipo"
+msgstr "Tipo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_work_type
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_search_view
+msgid "Tipo de Trabajo"
+msgstr "Tipo de Trabajo"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Total"
+msgstr "Total"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_realized_work_description
+msgid "Trabajo"
+msgstr "Trabajo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_realized_work_ids
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_work_order_form_view
+msgid "Trabajo Realizado"
+msgstr "Trabajo Realizado"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "U/M"
+msgstr "U/M"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_work_order_user_cancel_id
+msgid "Usuario"
+msgstr "Usuario"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_efficacy_evaluation_form_view
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_evaluation_parameter_form_view
+msgid "Valor"
+msgstr "Valor"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_efficacy_evaluation_value_opt
+msgid "Valor Óptimo"
+msgstr "Valor Óptimo"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_evaluation_parameter_value_opt
+msgid "Valor Óptimo Alcanzado"
+msgstr "Valor Óptimo Alcanzado"
+
+#. module: turei_maintenance
+#: selection:maintenance.equipment.category,day_start_maintenance:0
+msgid "Viernes"
+msgstr "Viernes"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_equipment_electric_motor_volts
+msgid "Volts"
+msgstr "Volts"
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_cycle_maintenance_volume
+msgid "Volumen de Trabajo"
+msgstr "Volumen de Trabajo"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "Volumen de trabajo"
+msgstr "Volumen de trabajo"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "_X_"
+msgstr "_X_"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.work_order_report_template
+msgid "_____"
+msgstr "_____"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.turei_maintenance_equipament_form_view_inherit
+msgid "horas"
+msgstr "horas"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_config_maintenance
+msgid "turei_maintenance.config_maintenance"
+msgstr "turei_maintenance.config_maintenance"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_config_work_order
+msgid "turei_maintenance.config_work_order"
+msgstr "turei_maintenance.config_work_order"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_cycle_maintenance
+msgid "turei_maintenance.cycle_maintenance"
+msgstr "turei_maintenance.cycle_maintenance"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_cycle_maintenance_plan
+msgid "turei_maintenance.cycle_maintenance_plan"
+msgstr "turei_maintenance.cycle_maintenance_plan"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_efficacy_evaluation
+msgid "turei_maintenance.efficacy_evaluation"
+msgstr "turei_maintenance.efficacy_evaluation"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_equipment_electric_motor
+msgid "turei_maintenance.equipment_electric_motor"
+msgstr "turei_maintenance.equipment_electric_motor"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_equipment_parts
+msgid "turei_maintenance.equipment_parts"
+msgstr "turei_maintenance.equipment_parts"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_equipment_parts_item
+msgid "turei_maintenance.equipment_parts_item"
+msgstr "turei_maintenance.equipment_parts_item"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_evaluation_parameter
+msgid "turei_maintenance.evaluation_parameter"
+msgstr "turei_maintenance.evaluation_parameter"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_import_wizard
+msgid "turei_maintenance.import_wizard"
+msgstr "turei_maintenance.import_wizard"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_incident_plan
+msgid "turei_maintenance.incident_plan"
+msgstr "turei_maintenance.incident_plan"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_line
+msgid "turei_maintenance.line"
+msgstr "turei_maintenance.line"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_members_team
+msgid "turei_maintenance.members.team"
+msgstr "turei_maintenance.members.team"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_product_order
+msgid "turei_maintenance.product_order"
+msgstr "turei_maintenance.product_order"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_push_plan
+msgid "turei_maintenance.push_plan"
+msgstr "turei_maintenance.push_plan"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_work_order
+msgid "turei_maintenance.work_order"
+msgstr "turei_maintenance.work_order"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_turei_maintenance_realized_work
+msgid "turei_maitenance.realized_work"
+msgstr "turei_maitenance.realized_work"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_efficacy_evaluation
+msgid "wzd.efficacy.evaluation"
+msgstr "wzd.efficacy.evaluation"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_equipment_parts
+msgid "wzd.equipment.parts"
+msgstr "wzd.equipment.parts"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_generate_plan_mtto
+msgid "wzd.generate.plan.mtto"
+msgstr "wzd.generate.plan.mtto"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_orders_delivered
+msgid "wzd.orders.delivered"
+msgstr "wzd.orders.delivered"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_orders_no_delivered
+msgid "wzd.orders.no.delivered"
+msgstr "wzd.orders.no.delivered"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_orders_pending
+msgid "wzd.orders.pending"
+msgstr "wzd.orders.pending"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_orders_planned
+msgid "wzd.orders.planned"
+msgstr "wzd.orders.planned"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_plan_mtto
+msgid "wzd.plan.mtto"
+msgstr "wzd.plan.mtto"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_request_maint
+msgid "wzd.request.maint"
+msgstr "wzd.request.maint"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_resources_consumed
+msgid "wzd.resources.consumed"
+msgstr "wzd.resources.consumed"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_update_request
+msgid "wzd.update_request"
+msgstr "wzd.update_request"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_work_maint_team
+msgid "wzd.work.maint.team"
+msgstr "wzd.work.maint.team"
+
+#. module: turei_maintenance
+#: model:ir.model,name:turei_maintenance.model_wzd_work_type_work
+msgid "wzd.work.type.work"
+msgstr "wzd.work.type.work"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_update_request_form
+msgid "¿ Esta seguro que quiere ejecutar el Asistente ?"
+msgstr "¿ Esta seguro que quiere ejecutar el Asistente ?"
+
+#. module: turei_maintenance
+#: model:ir.ui.view,arch_db:turei_maintenance.wzd_generate_plan_mtto_report_form
+msgid "¿ Esta seguro que quiere generar el Plan ? Tenga en cuenta que esta accion eliminara las peticiones existentes que no se hayan ejecutado en el año, y creara las nuevas peticiones a partir de las incidencias introducidas al sistema."
+msgstr "¿ Esta seguro que quiere generar el Plan ? Tenga en cuenta que esta accion eliminara las peticiones existentes que no se hayan ejecutado en el año, y creara las nuevas peticiones a partir de las incidencias introducidas al sistema."
+
+#. module: turei_maintenance
+#: model:ir.model.fields,field_description:turei_maintenance.field_turei_maintenance_members_team_responsible
+msgid "¿Es el Jefe de Brigada?"
+msgstr "¿Es el Jefe de Brigada?"

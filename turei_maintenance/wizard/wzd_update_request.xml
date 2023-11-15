@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="wzd_update_request_form" model="ir.ui.view">
+            <field name="name">wzd.update.request.mtto.report.form</field>
+            <field name="model">wzd.update_request</field>
+            <field name="arch" type="xml">
+                <form string="Actualizar Peticiones de Mantenimiento">
+                    <sheet>
+                        <div style="display: flex;">
+                            <div style="width: 300px;">
+                                <img src="/turei_maintenance/static/src/img/maintenance2.png"/>
+                            </div>
+
+                            <div style="margin: 50px;">
+                                <p/>
+                                <p>
+                                    Este Asistente permite actualizar las Peticiones de Mantenimiento,
+                                    a partir de la Funcionalidad escogida.
+                                </p>
+
+                                <group class="o_label_nowrap">
+                                    <group>
+                                        <field name="options" widget="radio"/>
+                                        <field name="date_start_secundary" attrs="{'invisible':[('options', '!=', 'push_secundary')], 'required': [('options', '==', 'push_secundary')]}"/>
+                                        <field name="date_stop_secundary" attrs="{'invisible':[('options', '!=', 'push_secundary')], 'required': [('options', '==', 'push_secundary')]}"/>
+                                        <field name="date_start_others" attrs="{'invisible':[('options', '!=', 'push_others')], 'required': [('options', '==', 'push_others')]}"/>
+                                        <field name="date_stop_others" attrs="{'invisible':[('options', '!=', 'push_others')], 'required': [('options', '==', 'push_others')]}"/>
+                                        <field name="date_start_planta" attrs="{'invisible':[('options', '!=', 'push_planta')], 'required': [('options', '==', 'push_planta')]}"/>
+                                        <field name="date_stop_planta" attrs="{'invisible':[('options', '!=', 'push_planta')], 'required': [('options', '==', 'push_planta')]}"/>
+                                        <field name="description_secundary" attrs="{'invisible':[('options', '!=', 'push_secundary')], 'required': [('options', '==', 'push_secundary')]}"/>
+                                        <field name="description_others" attrs="{'invisible':[('options', '!=', 'push_others')], 'required': [('options', '==', 'push_others')]}"/>
+                                        <field name="description_planta" attrs="{'invisible':[('options', '!=', 'push_planta')], 'required': [('options', '==', 'push_planta')]}"/>
+                                    </group>
+                                    <group></group>
+                                </group>
+
+                            </div>
+                        </div>
+                        </sheet>
+
+                        <footer>
+                            <div>
+                                <button name="update_request" icon="fa-refresh" string="Actualizar" type="object"
+                                        class="oe_highlight" confirm="¿ Esta seguro que quiere ejecutar el Asistente ?"/>
+
+                                <button special="cancel" string="Cancelar" class="oe_link"/>
+                            </div>
+                        </footer>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="wzd_update_request_act_window" model="ir.actions.act_window">
+            <field name="name">Actualizar Peticiones de Mantenimiento</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wzd.update_request</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem action="wzd_update_request_act_window"
+                  id="wzd_update_request_menu_item"
+                  parent="turei_maintenance_integration_left_menu"
+                  groups="turei_maintenance.group_manager_user"
+                  sequence="5"/>
+    </data>
+</odoo>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Turei Hr Performance -->
+        <menuitem id="menu_turei_hr_performance_root"
+                  name="Performance Evaluation"
+                  web_icon="turei_hr_performance,static/description/icon.png"
+                  sequence="98"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+        />
+
+
+        <menuitem id="menu_turei_hr_performance_config"
+                  name="Settings"
+                  parent="menu_turei_hr_performance_root"
+                  sequence="10"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+        />
+
+         <menuitem id="menu_turei_hr_performance_eval"
+                  name="Evaluations"
+                  parent="menu_turei_hr_performance_root"
+                  sequence="9"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+         />
+
+
+         <!-- Period Evaluation Performance -->
+
+
+        <act_window id="action_turei_hr_performance_period"
+                    name="Indicator Performance"
+                    res_model="turei_hr_performance.period"
+                    view_mode="tree,form"/>
+
+
+        <menuitem id="menu_turei_turei_hr_performance_period"
+                  name="Evaluation Performance Period"
+                  parent="menu_turei_hr_performance_config"
+                  sequence="4"
+                  action="action_turei_hr_performance_period"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+        />
+
+          <!-- Tree View Period -->
+
+        <record id="view_turei_hr_performance_period_tree" model="ir.ui.view">
+            <field name="name">Tree View Evaluation Performance Period</field>
+            <field name="model">turei_hr_performance.period</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" class="oe_title"/>
+                    <field name="date_start"/>
+                    <field name="date_stop"/>
+                    <field name="annual"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_turei_hr_performance_period_form" model="ir.ui.view">
+	    <field name="name">Form View Evaluation Performance Period</field>
+	    <field name="model">turei_hr_performance.period</field>
+	    <field name="arch" type="xml">
+	        <form string="Period">
+				 <header>
+					<button name="button_open" type="object" states='draft' string="Open" class="oe_highlight" />
+					<button name="button_close" type="object" states='open' string="Close" class="oe_highlight" />
+					<button name="button_reset_draft" type="object" states='closed' string="Reset to draft"  />
+					<field name="state" widget="statusbar" statusbar_visible="draft,open,closed" />
+				</header>
+	            <sheet>
+	                <group col="4">
+	                    <field name="name" widget="mask_regex" data-inputmask-regex="([A-Za-z0-9- /ÁÉÓÍÚÑáéóíúñ]{1,32})"/>
+	                    <field name="annual"/>
+                      	<field name="date_start"/>
+                      	<field name="date_stop"/>
+	                </group>
+	            </sheet>
+	        </form>
+	    </field>
+	</record>
+
+
+    <!-- Indicator Performance -->
+
+
+        <act_window id="action_turei_hr_performance_indicator_performance"
+                    name="Indicator Performance"
+                    res_model="turei_hr_performance.indicator_performance"
+                    view_mode="tree,form"/>
+
+
+        <menuitem id="menu_turei_hr_performance_indicator_performance"
+                  name="Indicator Performance"
+                  parent="menu_turei_hr_performance_config"
+                  sequence="3"
+                  action="action_turei_hr_performance_indicator_performance"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+        />
+
+
+
+         <!-- Tree View Indicator Performance -->
+
+        <record id="view_turei_hr_performance_indicator_performance_tree" model="ir.ui.view">
+            <field name="name">Tree View Indicator Performance</field>
+            <field name="model">turei_hr_performance.indicator_performance</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" class="oe_title"/>
+                    <field name="period_type"/>
+                    <field name="max_value"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View Formation Mode -->
+        <record id="view_turei_hr_performance_indicator_performance_form" model="ir.ui.view">
+            <field name="name">Form View Indicator Performance</field>
+            <field name="model">turei_hr_performance.indicator_performance</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group name="group_left">
+                                <field name="name" class="oe_title"/>
+                                <field name="period_type"/>
+                                <field name="description"/>
+                            </group>
+                            <group name="group_right">
+                                <field name="max_value"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+
+        <!-- Evaluation Performance -->
+
+
+        <act_window id="action_turei_hr_performance_evaluation"
+                    name="Evaluation Performance"
+                    res_model="turei_hr_performance.evaluation_performance"
+                    view_mode="tree,form"/>
+
+
+        <menuitem id="menu_turei_hr_performance_evaluation_performance"
+                  name="Evaluation Performance"
+                  parent="menu_turei_hr_performance_eval"
+                  sequence="3"
+                  action="action_turei_hr_performance_evaluation"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+        />
+
+
+
+         <!-- Tree View Evaluation Performance -->
+
+        <record id="view_turei_hr_performance_evaluation_performance_tree" model="ir.ui.view">
+            <field name="name">Tree View Evaluation Performance</field>
+            <field name="model">turei_hr_performance.evaluation_performance</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="description"/>
+                    <field name="period_id"/>
+                    <field name="evaluated_id"/>
+                    <field name="evaluator_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View Formation Mode -->
+        <record id="view_turei_hr_performance_evaluation_performance_form" model="ir.ui.view">
+            <field name="name">Form View Evaluation Performance</field>
+            <field name="model">turei_hr_performance.evaluation_performance</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group name="group_left">
+                                <field name="evaluator_id" domain="[('is_evaluator','=',True)]"/>
+                                <field name="period_id"/>
+                            </group>
+                            <group name="group_right">
+                                <field name="evaluated_id" domain="[('evaluator_id','=',evaluator_id)]"/>
+                                <field name="department_id"/>
+                                <field name="job_id"/>
+                                <field name="occupational_category_id"/>
+                            </group>
+                            <separator string="Evaluation Indicators"/>
+                            <field name="evaluation_performance_lines">
+                                <tree editable="bottom" string="Evaluations">
+                                    <field name="indicator_performance_id"/>
+                                    <field name="value"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+
+
+
+    </data>
+</odoo>

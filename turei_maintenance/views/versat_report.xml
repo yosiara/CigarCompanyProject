@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="turei_maintenance_versat_report_tree_view" model="ir.ui.view">
+        <field name="name">turei_maintenance_versat_report_tree_view</field>
+        <field name="model">turei_maintenance.versat_report</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="number"/>
+                <field name="date"/>
+                <field name="code"/>
+                <field name="description"/>
+                <field name="mu"/>
+                <field name="existence"/>
+                <field name="amount"/>
+                <field name="cup"/>
+                <field name="cuc" invisible="1"/>
+                <field name="ca"/>
+                <field name="warehouse"/>
+                <field name="name"/>
+                <field name="ccosto"/>
+                <field name="centro_costo"/>
+                <field name="doc_status"/>
+                <field name="norder"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="maintenance_versat_report_action_view" model="ir.actions.act_window">
+        <field name="name">ReporteVersat</field>
+        <field name="res_model">turei_maintenance.versat_report</field>
+        <field name="view_type">tree</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+            id="menu_maintenance_versat_report"
+            name="ReporteVersat"
+            parent="maintenance.menu_maintenance_title"
+            action="maintenance_versat_report_action_view"
+            sequence="0"/>
+</odoo>

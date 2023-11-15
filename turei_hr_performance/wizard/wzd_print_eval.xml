@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="wzd_print_eval_form" model="ir.ui.view">
+            <field name="name">wzd.print.eval.performance.form</field>
+            <field name="model">wzd.print_eval</field>
+            <field name="arch" type="xml">
+                <form string="Evaluación del Desempeño">
+                    <sheet>
+                        <div style="display: flex;">
+                            <div style="width: 300px;">
+                                <img src="/turei_maintenance/static/src/img/maintenance2.png"/>
+                            </div>
+
+                            <div style="margin: 50px;">
+                                <p/>
+                                <p>
+                                    Este Asistente permite Imprimir las Evaluaciones del Desempeño.
+                                </p>
+
+                                <group class="o_label_nowrap">
+                                    <group>
+                                        <field name="evaluated_id"/>
+                                        <field name="choice_eval" widget="radio"/>
+                                    </group>
+                                    <group>
+
+                                    </group>
+                                </group>
+
+                            </div>
+                        </div>
+                        </sheet>
+
+                        <footer>
+                            <div>
+                                <button name="print_eval" icon="fa-refresh" string="Imprimir" type="object"
+                                        class="oe_highlight"/>
+                                <button special="cancel" string="Cancelar" class="oe_link"/>
+                            </div>
+                        </footer>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="wzd_print_eval_act_window" model="ir.actions.act_window">
+            <field name="name">Imprimir Evaluacion del Desempeño</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wzd.print_eval</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem action="wzd_print_eval_act_window"
+                  id="wzd_print_eval_menu_item"
+                  parent="menu_turei_hr_performance_eval"
+                  groups="turei_hr_performance.group_hr_performance_manager"
+                  sequence="5"/>
+    </data>
+</odoo>

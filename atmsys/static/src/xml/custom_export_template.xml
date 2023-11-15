@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+<!--    Adds a margin to separate the delete button from the select box-->
+    <t t-extend="Export.SavedList">
+        <t t-jquery=".o_exported_lists_select" t-operation="after" >
+            <div style="margin-left: 3rem"></div>
+        </t>
+    </t>
+</templates>

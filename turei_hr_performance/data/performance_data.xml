@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+		<record id="indicator_performance_0" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento del Plan de Trabajo o Tareas Asignadas en el mes</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">30</field>
+		</record>
+
+		<record id="indicator_performance_1" model="turei_hr_performance.indicator_performance">
+			<field name="name">Calidad del Trabajo realizado</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">20</field>
+		</record>
+
+		<record id="indicator_performance_2" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de las normas de consumo material, de portadores energéticos y tecnológicos</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">10</field>
+		</record>
+
+		<record id="indicator_performance_3" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de la disciplina laboral y aprovechamiento de la jornada</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">15</field>
+		</record>
+
+		<record id="indicator_performance_4" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de las normas de seguridad y salud en el trabajo</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">10</field>
+		</record>
+
+		<record id="indicator_performance_5" model="turei_hr_performance.indicator_performance">
+			<field name="name">Uso y cuidado de los recursos materiales y equipos</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">5</field>
+		</record>
+
+		<record id="indicator_performance_6" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento del plan de capacitación y desarrollo individual</field>
+			<field name="period_type">monthly</field>
+			<field name="max_value">10</field>
+		</record>
+
+		<record id="indicator_performance_7" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de las recomendaciones derivadas de la evaluación del desempeño anual anterior</field>
+			<field name="period_type">annual</field>
+		</record>
+
+		<record id="indicator_performance_8" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de sus objetivos, funciones y tareas individuales, y la realización del trabajo con eficiencia, calidad y productividad requerida</field>
+			<field name="period_type">annual</field>
+		</record>
+
+		<record id="indicator_performance_9" model="turei_hr_performance.indicator_performance">
+			<field name="name">Comportamiento de la disciplina y aprovechamiento de la jornada laboral</field>
+			<field name="period_type">annual</field>
+		</record>
+
+		<record id="indicator_performance_10" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de las normas de seguridad y salud en el trabajo durante el año</field>
+			<field name="period_type">annual</field>
+		</record>
+
+		<record id="indicator_performance_11" model="turei_hr_performance.indicator_performance">
+			<field name="name">Uso y cuidado de los recursos materiales, fundamentalmente de los portadores energéticos, de los equipos y medios de protección personal</field>
+			<field name="period_type">annual</field>
+		</record>
+
+		<record id="indicator_performance_12" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento del Plan de Capacitación y Desarrollo Individual,  en correspondencia con el plan de capacitación aprobado</field>
+			<field name="period_type">annual</field>
+		</record>
+
+		<record id="indicator_performance_13" model="turei_hr_performance.indicator_performance">
+			<field name="name">Cumplimiento de las competencias diseñadas para el cargo, con período de evaluación anual</field>
+			<field name="period_type">annual</field>
+		</record>
+
+	</data>
+</odoo>
