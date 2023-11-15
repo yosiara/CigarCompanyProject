@@ -344,7 +344,7 @@ class WzdUpdateRequest(models.TransientModel):
                 if maintenance_id.id:
                     cycle.write({
                         'stage_id': maintenance_id.stage_id.id
-                    }, no_update_request=True)
+                    }, not_update_request=True)
 
         elif self.options == 'update_maintenance_for_orders':
             year = datetime.today().date().year
@@ -372,7 +372,7 @@ class WzdUpdateRequest(models.TransientModel):
                 if maint_id.id:
                     cycle.write({
                         'stage_id': maint_id.stage_id.id
-                    }, no_update_request=True)
+                    }, not_update_request=True)
 
 
         elif self.options == 'update_cycles_plan_for_maintenance':
