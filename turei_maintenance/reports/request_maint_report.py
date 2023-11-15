@@ -86,9 +86,10 @@ class RequestMaintReport(ReportXlsx):
                                          ('year_char','=',maint.year_char),
                                          ('equipment_id','=',maint.equipment_id.id)
                                          ],limit=1)
-            print(mt.id)
-            wk = work_order_obj.search([('maintenance_request_id', '=', mt.id),
-                                        ('work_type', '=', 'plan_ciclo')])
+            wk = work_order_obj
+            if len(mt):
+                wk = work_order_obj.search([('maintenance_request_id', '=', mt.id),
+                                            ('work_type', '=', 'plan_ciclo')],limit=1)
             worksheet.write(x, 6, wk.opening_date or '', normal_format)
             worksheet.write(x, 7, maint.equipment_id.category_id.name, normal_format)
             worksheet.write(x, 8, maint.equipment_id.line_id.name, normal_format)
