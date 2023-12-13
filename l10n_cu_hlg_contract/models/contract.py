@@ -194,6 +194,8 @@ class Contract ( models.Model ):
     #     else:
     #         return False
 
+    seq_contract = fields.Char(string='Nro. Consec.', required=True, copy=False, readonly=True, default=lambda self: self.env['ir.sequence'].next_by_code('increment_seq_contract'))
+
     name = fields.Char ( 'Name', required=True, readonly=True, states={'draft': [('readonly', False)]},
                          help='Object of the contract', size=100 )
     number_archive_partner = fields.Char ( 'Number of Archive', related='partner_id.archive_nro' )
@@ -213,6 +215,7 @@ class Contract ( models.Model ):
     partner_id = fields.Many2one ( 'res.partner', 'Partner', required=True, track_visibility='onchange', )
     dst = fields.Selection([('si', 'SI'), ('no', 'NO')], 'DST', required=True)
     tcp = fields.Selection([('si', 'SI'), ('no', 'NO')], 'TCP', required=True)
+    mipyme = fields.Selection([('si', 'SI'), ('no', 'NO')], 'MIPYME', required=True)
     state = fields.Selection (
         [('draft', 'New'), ('pending_dict', 'Pending Dict.'), ('pending_appro', 'Pending Appro.'),
          ('rejected', 'Rejected'), ('approval', 'Approved'), ('pending_signed', 'Pending Signed'),
@@ -292,7 +295,7 @@ class Contract ( models.Model ):
     sql_constraints = [('number_type_uniq', 'unique (number, contract_type)',
                         'The number and the contract type combination must be unique'),
                        ('number_uniq', 'unique(number)', 'The number must be unique!'), ]
-
+    
     @api.onchange ( 'hco' )
     def onchange_hco(self):
         if self.hco:
@@ -901,6 +904,16 @@ class Contract ( models.Model ):
                     cont.state = 'close'
 
         return True
+
+    @api.model
+    def _update_seq_contract_recs_old(self):
+        print("recs..............")
+        recs = self.search([], order='id')
+        print(recs)
+        for rec in recs:
+            rec.write({
+                'seq_contract': self.env['ir.sequence'].next_by_code('increment_seq_contract')
+            })
 
     @api.one
     @api.constrains ( 'name' )

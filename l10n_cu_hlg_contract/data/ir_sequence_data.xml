@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="0">
-
+    <data noupdate="1">
         <record id="contract_internal_number_sequence" model="ir.sequence">
             <field name="name">Internal number contract</field>
             <field name="code">contract.internal.number</field>
@@ -10,7 +9,6 @@
             <field name="number_next">1</field>
             <field name="number_increment">1</field>
         </record>
-
         <record id="partner_archive_nro_sequence" model="ir.sequence">
             <field name="name">Partner archive number contract</field>
             <field name="code">partner.archive.number</field>
@@ -18,6 +16,12 @@
             <field name="number_next">1</field>
             <field name="number_increment">1</field>
         </record>
-
+        <record id="seq_contract_sequence" model="ir.sequence">
+            <field name="name">Contract sequence</field>
+            <field name="code">increment_seq_contract</field>
+            <field name="prefix"></field>
+            <field name="padding">5</field>
+            <field eval="False" name="company_id"/>
+        </record>
     </data>
 </odoo>

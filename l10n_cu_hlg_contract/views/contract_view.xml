@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-
         <!-- Contract Line-->
         <record id="view_l10n_cu_contract_line_milestone_payment_form" model="ir.ui.view">
             <field name="name">l10n_cu_contract.line_milestone_payment.form</field>
@@ -23,7 +22,6 @@
                 </form>
             </field>
         </record>
-
         <!-- Contract -->
         <record id="view_l10n_cu_contract_contract_tree" model="ir.ui.view">
             <field name="name">l10n_cu_contract.contract.tree</field>
@@ -44,11 +42,10 @@
                     <field name="percentage_execution" widget="progressbar"/>
                     <field name="days" invisible="True"/>
                     <field name="state"/>
-		    <field name="dst"/>
+                    <field name="dst"/>
                 </tree>
             </field>
         </record>
-
         <record id="view_l10n_cu_contract_contract_form" model="ir.ui.view">
             <field name="name">l10n_cu_contract.contract.form</field>
             <field name="model">l10n_cu_contract.contract</field>
@@ -90,7 +87,6 @@
                                 groups="l10n_cu_hlg_contract.group_contract_master"/>
                         <button string="Print" name="print_contract" type="object" class="oe_highlight"
                                 groups="l10n_cu_hlg_contract.group_contract_user"/>
-
                         <field name="state" widget="statusbar"/>
                     </header>
                     <sheet>
@@ -110,7 +106,6 @@
                                 <field name="required_milestone_payment" invisible="True"/>
                                 <field name="required_parent_id" invisible="True"/>
                                 <field name="committee" invisible="True"/>
-
                                 <field name="partner_id" attrs="{'readonly': [('state', '!=', 'draft')]}"
                                        domain="[(flow, '=', True)]"/>
                                 <field name="parent_id" attrs="{'invisible': [('required_parent', '!=', True)],
@@ -131,10 +126,10 @@
                                 <field name="number_readonly" invisible="1"/>
                                 <field name="number"
                                        attrs="{'readonly': ['|',('number_readonly', '=', True),('state', 'in', ['open','close','cancelled'])]}"/>
-
                                 <field name="internal_number_contract" />
-				                <field name="dst"/>
+                                <field name="dst"/>
                                 <field name="tcp"/>
+                                <field name="mipyme"/>
                                 <field name="date_send_signed"
                                        attrs="{'required': [('state', 'in', ['approval','pending_signed'])],
                                                 'readonly': [('state', 'in', ['pending_signed','open','close','cancelled'])]}"/>
@@ -146,7 +141,6 @@
                                                             ('hco', '=', False)],
                                                 'readonly': [('state', 'in', ['open','close','cancelled'])],
                                                 'invisible': [('hco', '=', True)]}"/>
-
                                 <field name="amount_bool"
                                        attrs="{'readonly': [('state', 'in', ['open','close','cancelled'])]}"/>
                                 <field name="update_date"
@@ -169,7 +163,6 @@
                             <field name="amount_invoice"/>
                             <field name="amount_rest" class="oe_subtotal_footer_separator"/>
                         </group>
-
                         <notebook colspan="4">
                             <page string="Product Lines" attrs="{'invisible':[('required_lines', '!=', True)]}">
                                 <field name="line_ids" attrs="{'readonly':[('state', '!=', 'draft')]}"
@@ -231,11 +224,10 @@
                                     </tree>
                                 </field>
                             </page>
-
                             <page string="Information">
                                 <group>
                                     <!--<field name="employee_id"-->
-                                           <!--attrs="{'readonly': [('state', 'in', ['open','close','cancelled'])]}"/>-->
+                                    <!--attrs="{'readonly': [('state', 'in', ['open','close','cancelled'])]}"/>-->
                                     <group>
                                         <field name="employee_id" readonly="True" invisible="1"/>
                                         <field name="responsible_employee_id"
@@ -244,7 +236,6 @@
                                                attrs="{'readonly': [('state', 'in', ['open','close','cancelled'])]}"/>
                                         <field name="payment_method_id"
                                                attrs="{'readonly': [('state', 'in', ['open','close','cancelled'])]}"/>
-
                                     </group>
                                     <group>
                                         <field name="related_employee_id"
@@ -293,7 +284,6 @@
                 </form>
             </field>
         </record>
-
         <record id="contract_view_graph" model="ir.ui.view">
             <field name="name">contract.graph</field>
             <field name="model">l10n_cu_contract.contract</field>
@@ -304,7 +294,6 @@
                 </graph>
             </field>
         </record>
-
         <record id="contract_view_pivot" model="ir.ui.view">
             <field name="name">contract.pivot</field>
             <field name="model">l10n_cu_contract.contract</field>
@@ -319,7 +308,6 @@
                 </pivot>
             </field>
         </record>
-
         <record id="contract_view_search" model="ir.ui.view">
             <field name="name">contract.search</field>
             <field name="model">l10n_cu_contract.contract</field>
@@ -335,8 +323,7 @@
                     <field name="state"/>
                     <field name="contract_type"/>
                     <field name="number_archive_partner"/>
-		    <field name="dst"/>	
-
+                    <field name="dst"/>
                     <filter string="Draft" name="draft" domain="[('state','in', ['draft'])]"/>
                     <filter string="Pending Dict." name="pending_dict" domain="[('state','in', ['pending_dict'])]"/>
                     <filter string="Pending Appro." name="pending_appro" domain="[('state','in', ['pending_appro'])]"/>
@@ -347,13 +334,11 @@
                     <filter string="In Action" name="open" domain="[('state','in', ['open'])]"/>
                     <filter string="Closed" name="close" domain="[('state','in', ['close'])]"/>
                     <filter string="Cancelled" name="cancelled" domain="[('state','in', ['cancelled'])]"/>
-
                     <filter string="Not Close" name="not_close" domain="[('state','not in', ['close','cancelled'])]"/>
                     <filter string="Review at the beginning of the year" name="revision"
                             domain="[('revision', '=', True)]"/>
                     <filter string="Monetary execution" name="revision"
                             domain="[('percentage_execution', '&gt;=', 75)]"/>
-
                     <filter name="groupby_month" context="{'group_by': 'date_start:month'}" string="Month"/>
                     <filter name="groupby_year" context="{'group_by': 'date_start:year'}" string="Year"/>
                     <filter name="groupby_state" context="{'group_by': 'state'}" string="State"/>
@@ -369,7 +354,6 @@
                 </search>
             </field>
         </record>
-
         <record id="action_l10n_cu_contract_contract" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="type">ir.actions.act_window</field>
@@ -383,12 +367,10 @@
             <field name="help"></field>
             <field name="view_id" ref="view_l10n_cu_contract_contract_tree"/>
         </record>
-
         <menuitem action="action_l10n_cu_contract_contract"
                   id="menu_contract" parent="menu_sale_commercial"
                   sequence="15"
         />
-
         <record id="action_l10n_cu_contract_contract_purchase" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="type">ir.actions.act_window</field>
@@ -401,12 +383,10 @@
             </field>
             <field name="help"></field>
         </record>
-
         <menuitem action="action_l10n_cu_contract_contract_purchase"
                   id="menu_contract_purchase" parent="l10n_cu_hlg_contract.menu_purchase_commercial"
                   sequence="15"
         />
-
         <record id="contract_action_contract_type" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="res_model">l10n_cu_contract.contract</field>
@@ -421,7 +401,6 @@
             </field>
             <field name="search_view_id" ref="contract_view_search"/>
         </record>
-
         <record id="contract_action_contract_type_draft" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="res_model">l10n_cu_contract.contract</field>
@@ -437,7 +416,6 @@
             </field>
             <field name="search_view_id" ref="contract_view_search"/>
         </record>
-
         <record id="contract_action_contract_type_process" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="res_model">l10n_cu_contract.contract</field>
@@ -457,7 +435,6 @@
             </field>
             <field name="search_view_id" ref="contract_view_search"/>
         </record>
-
         <record id="contract_action_contract_type_progress" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="res_model">l10n_cu_contract.contract</field>
@@ -473,7 +450,6 @@
             </field>
             <field name="search_view_id" ref="contract_view_search"/>
         </record>
-
         <record id="contract_action_type" model="ir.actions.act_window">
             <field name="name">Contract</field>
             <field name="res_model">l10n_cu_contract.contract</field>
@@ -483,7 +459,6 @@
             <field name="domain"></field>
             <field name="search_view_id" ref="contract_view_search"/>
         </record>
-
         <record id="view_l10n_cu_contract_contract_tree_parent" model="ir.ui.view">
             <field name="name">l10n_cu_contract.contract.tree.parent</field>
             <field name="model">l10n_cu_contract.contract</field>
@@ -491,23 +466,19 @@
             <field eval="20" name="priority"/>
             <field name="arch" type="xml">
                 <tree string="Contract Type">
+                    <field name="seq_contract"/>
                     <field name="complete_number"/>
                     <field name="name"/>
                     <field name="partner_id"/>
-                    <field name="contract_type"/>
                     <field name="date_start"/>
                     <field name="date_end"/>
-                    <field name="hco"/>
-                    <field name="amount_total"/>
-                    <field name="amount_invoice"/>
-                    <field name="validity_date_progress" widget="progressbar"/>
-                    <field name="days" invisible="True"/>
                     <field name="state"/>
-		            <field name="dst"/>
+                    <field name="dst"/>
+                    <field name="tcp"/>
+                    <field name="mipyme"/>
                 </tree>
             </field>
         </record>
-
         <record id="action_l10n_cu_contract_contract_tree_parent"
                 model="ir.actions.act_window">
             <field name="name">Contract Parent</field>
@@ -517,15 +488,12 @@
             <field name="view_type">tree</field>
             <field name="view_id" ref="view_l10n_cu_contract_contract_tree_parent"/>
         </record>
-
         <menuitem action="action_l10n_cu_contract_contract_tree_parent"
                   id="menu_contract_parent" parent="menu_sale_commercial"
                   sequence="20"
         />
-
         <menuitem action="account.action_invoice_tree1" id="menu_sale_invoice" parent="menu_sale_commercial"
                   sequence="25"/>
-
         <record id="action_l10n_cu_contract_contract_tree_parent_purchase"
                 model="ir.actions.act_window">
             <field name="name">Contract Parent</field>
@@ -535,14 +503,11 @@
             <field name="view_type">tree</field>
             <field name="view_id" ref="view_l10n_cu_contract_contract_tree_parent"/>
         </record>
-
         <menuitem action="action_l10n_cu_contract_contract_tree_parent_purchase"
                   id="menu_contract_parent_purchase" parent="menu_purchase_commercial"
                   sequence="20"
         />
-
         <menuitem action="account.action_invoice_tree2" id="menu_purchase_invoice" parent="menu_purchase_commercial"
                   sequence="25"/>
-
     </data>
 </odoo>
