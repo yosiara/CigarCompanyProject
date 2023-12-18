@@ -465,7 +465,7 @@
             <field name="field_parent">child_ids</field>
             <field eval="20" name="priority"/>
             <field name="arch" type="xml">
-                <tree string="Contract Type">
+                <tree string="Contract Type" create="false" delete="false" edit="false" default_order="seq_contract asc">
                     <field name="seq_contract"/>
                     <field name="complete_number"/>
                     <field name="name"/>
@@ -485,7 +485,8 @@
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">l10n_cu_contract.contract</field>
             <field name="domain">[('parent_id','=',False),('flow', '=', 'customer'),('state', '=', 'open')]</field>
-            <field name="view_type">tree</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree</field>
             <field name="view_id" ref="view_l10n_cu_contract_contract_tree_parent"/>
         </record>
         <menuitem action="action_l10n_cu_contract_contract_tree_parent"
@@ -500,7 +501,8 @@
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">l10n_cu_contract.contract</field>
             <field name="domain">[('parent_id','=',False),('flow', '=', 'supplier'), ('state', '=', 'open')]</field>
-            <field name="view_type">tree</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree</field>
             <field name="view_id" ref="view_l10n_cu_contract_contract_tree_parent"/>
         </record>
         <menuitem action="action_l10n_cu_contract_contract_tree_parent_purchase"

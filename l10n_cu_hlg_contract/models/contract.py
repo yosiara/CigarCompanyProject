@@ -194,7 +194,7 @@ class Contract ( models.Model ):
     #     else:
     #         return False
 
-    seq_contract = fields.Char(string='Nro. Consec.', required=True, copy=False, readonly=True, default=lambda self: self.env['ir.sequence'].next_by_code('increment_seq_contract'))
+    seq_contract = fields.Char(string='Nro. Consec.', copy=False, readonly=True, default=' ')
 
     name = fields.Char ( 'Name', required=True, readonly=True, states={'draft': [('readonly', False)]},
                          help='Object of the contract', size=100 )
@@ -495,6 +495,8 @@ class Contract ( models.Model ):
 
     @api.model
     def create(self, vals):
+        if vals.get('seq_contract', ' ') == ' ':
+            vals['seq_contract'] = self.env['ir.sequence'].next_by_code('increment_seq_contract') or ' '
         if vals.get ( 'parent_id' ):
             parent = self.browse ( vals['parent_id'] )
             vals.update ( {'partner_id': parent.partner_id.id} )
@@ -907,9 +909,7 @@ class Contract ( models.Model ):
 
     @api.model
     def _update_seq_contract_recs_old(self):
-        print("recs..............")
         recs = self.search([], order='id')
-        print(recs)
         for rec in recs:
             rec.write({
                 'seq_contract': self.env['ir.sequence'].next_by_code('increment_seq_contract')
