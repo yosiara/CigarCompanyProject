@@ -53,8 +53,6 @@ class ContractPrintRegistry(models.TransientModel):
         datas = {
             'name': contract_ids.partner_id.name
         }
-        print datas
-
 
         return {
                     'type': 'ir.actions.report.xml',
