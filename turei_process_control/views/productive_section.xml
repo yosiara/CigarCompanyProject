@@ -2,12 +2,12 @@
 <odoo>
     <data>
         <act_window id="turei_process_control_productive_section_action"
-                    name="Sección productiva"
+                    name="Modulo"
                     res_model="turei_process_control.productive_section"
                     view_mode="tree,form"/>
 
         <menuitem id="turei_process_control_productive_section_menu"
-                  name="Sección productiva"
+                  name="Modulo"
                   parent="turei_process_control_settings_menu"
                   action="turei_process_control_productive_section_action"
                   sequence="20"

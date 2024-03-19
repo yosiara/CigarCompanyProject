@@ -26,7 +26,7 @@
                                     <b>Hasta</b>
                                 </td>
                                 <td colspan="2">
-                                    <b>Sección Productiva</b>
+                                    <b>Modulo</b>
                                 </td>
                                 <td colspan="2">
                                     <b>Turno</b>
@@ -229,7 +229,7 @@
 
                             <tr>
                                 <td colspan="8" class="text-center">
-                                    <b>TOTAL SECCIÓN PRODUCTIVA</b>
+                                    <b>TOTAL Modulo</b>
                                 </td>
                             </tr>
                             <t t-set="total_interruptions_time_hours" t-value="round((total_interruptions_time_exogena+total_interruptions_time_endo) / 60.00, 2)"/>

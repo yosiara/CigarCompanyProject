@@ -110,7 +110,7 @@ class EfficiencyCdtExcelReport(ReportXlsx):
         worksheet.write('C4', tools.ustr('Mes'), merge_format)
         worksheet.write('D4', tools.ustr('Día'), merge_format)
         worksheet.write('E4', tools.ustr('Turno'), merge_format)
-        worksheet.write('F4', tools.ustr('Sección Productiva'), merge_format)
+        worksheet.write('F4', tools.ustr('Modulo'), merge_format)
         worksheet.write('G4', tools.ustr('Eficiencia Real'), merge_format)
         worksheet.write('H4', tools.ustr('Eficiencia Operativa'), merge_format)
         worksheet.write('I4', tools.ustr('Coeficiente de Disponibilidad Técnica Real'), workbook.add_format({'bold': 1, 'border': 1, 'align': 'center', 'valign': 'vcenter', 'font': {'size': 25}}))

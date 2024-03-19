@@ -11,7 +11,7 @@ class WzdInterruptionsBySection(models.TransientModel):
     date_end = fields.Date('Hasta', required=True)
     interruption_type = fields.Many2one('turei_process_control.interruption.type', 'Tipo')
     productive_section = fields.Many2one(comodel_name="turei_process_control.productive_section",
-                                         string="Sección productiva", ondelete='cascade')
+                                         string="Modulo", ondelete='cascade')
 
     def print_report(self):
         return self.env['report'].get_action(self, 'turei_process_control.interruptions_by_section_report', data={

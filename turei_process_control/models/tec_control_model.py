@@ -17,7 +17,7 @@ class tecnolog_control_model(models.Model):
     attendance_id = fields.Many2one('resource.calendar.attendance', string='Sesión', copy=True)
 
     productive_section = fields.Many2one(comodel_name="turei_process_control.productive_section",
-                                         string="Sección productiva",
+                                         string="Modulo",
                                          required=True, ondelete='cascade')
     productive_capacity = fields.Integer('Capacidad Productiva', required=True)
     plan_time = fields.Integer('Tmpo. Plan(Horas)', required=True)

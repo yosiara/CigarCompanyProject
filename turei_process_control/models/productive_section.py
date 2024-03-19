@@ -6,11 +6,11 @@ from odoo.exceptions import ValidationError
 class ProductiveSection(models.Model):
     _name = "turei_process_control.productive_section"
     _rec_name = 'name'
-    _description = tools.ustr("Sección Productiva")
+    _description = tools.ustr("Modulo")
     _order = 'name'
 
     def _get_default_name(self):
-        return 'Sección productiva '
+        return 'Modulo '
 
     def _get_productions_code(self):
         connexion = self.env['db_production_connector.template'].search([], limit=1)
@@ -42,7 +42,7 @@ class ProductiveSection(models.Model):
 
     _sql_constraints = [
         ('name_uniq', 'unique(name)',
-         'El nombre de la sección productiva debe ser único.'),
+         'El nombre de la Modulo debe ser único.'),
     ]
 
     @api.constrains('productive_line_ids')
@@ -54,7 +54,7 @@ class ProductiveSection(models.Model):
                 raise ValidationError(
                     u'La línea productiva: "' + tools.ustr(
                         productive_section_lines.productive_line.name)
-                    + u'" ya ha sido añadida en la sección productiva: "' +
+                    + u'" ya ha sido añadida en la Modulo: "' +
                     tools.ustr(lines_in_system[0].productive_section_id.name) + '"')
 
     def calculate_cdt(self, date_start=None, date_end=None, turn=None):
@@ -136,7 +136,7 @@ class ProductiveSectionLines(models.Model):
 
 
     productive_section_id = fields.Many2one(comodel_name="turei_process_control.productive_section",
-                                            string="Sección productiva", required=False, )
+                                            string="Modulo", required=False, )
 
     productive_line = fields.Many2one(comodel_name="turei_process_control.productive_line", string="Línea Produtiva",
                                       required=False)

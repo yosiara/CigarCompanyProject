@@ -15,7 +15,7 @@ class ProductiveLine(models.Model):
                                    relation="turei_process_control_produc_line_machine_asoc",
                                    column1="prod_line_id", copy=False,
                                    column2="machine_id", string='Máquinas')
-    is_in_productive_section = fields.Boolean('Añadido a sección productiva', compute='is_in_productive_section_check')
+    is_in_productive_section = fields.Boolean('Añadido a Modulo', compute='is_in_productive_section_check')
 
     _sql_constraints = [
         ('name_uniq', 'unique(name)',

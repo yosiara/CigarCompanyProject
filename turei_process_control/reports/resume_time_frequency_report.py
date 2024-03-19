@@ -42,12 +42,12 @@ class ResumenTimeFrequencyToExcelReport(ReportXlsx):
                                                                                                           'size': 12, 'bold': 1}, 'width': 495, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                                                                                  'line': {'none': True}})
         if lines.turn:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
                                  options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                                    'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                           'line': {'none': True}})
         else:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
                                  options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                                    'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                           'line': {'none': True}})
@@ -131,12 +131,12 @@ class ResumenTimeFrequencyToExcelReport(ReportXlsx):
                                                                                                           'size': 12, 'bold': 1}, 'width': 495, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                                                                                  'line': {'none': True}})
         if lines.turn:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
                              options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                               'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                       'line': {'none': True}})
         else:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
                              options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                               'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                       'line': {'none': True}})
@@ -239,12 +239,12 @@ class ResumenTimeFrequencybyLinesToExcelReport(ReportXlsx):
                                                                                                           'size': 12, 'bold': 1}, 'width': 495, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                                                                                  'line': {'none': True}})
         if lines.turn:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
                              options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                               'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                       'line': {'none': True}})
         else:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
                              options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                               'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                       'line': {'none': True}})
@@ -325,12 +325,12 @@ class ResumenTimeFrequencybyLinesToExcelReport(ReportXlsx):
                                                                                                           'size': 12, 'bold': 1}, 'width': 495, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                                                                                  'line': {'none': True}})
         if lines.turn:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) TURNO %d") % (lines.date_start, lines.date_end, lines.turn),
                              options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                               'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                       'line': {'none': True}})
         else:
-            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR SECCIÓN PRODUCTIVA (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
+            worksheet.insert_textbox('A2:K2', tools.ustr("REPORTE RESUMEN DE TIEMPO Y FRECUENCIA POR Modulo (DESDE %s HASTA %s) ") % (lines.date_start, lines.date_end),
                              options={'y_offset': 0, 'font': {'color': 'black', 'bold': 1,
                                                               'size': 10}, 'width': 720, 'x_offset': 15, 'height': 10, 'fill': {'none': True},
                                       'line': {'none': True}})

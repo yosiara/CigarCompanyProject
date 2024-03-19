@@ -29,7 +29,7 @@
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th>Sección productiva</th>
+                                        <th>Modulo</th>
                                         <th>Tipo de Interrupción</th>
                                         <th>Cantidad</th>
                                         <th>Tiempo(horas)</th>

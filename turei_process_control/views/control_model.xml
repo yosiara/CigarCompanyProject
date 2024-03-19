@@ -19,7 +19,7 @@
                     <filter name="group_day" string="Por día"
                             context="{'group_by': 'day_char'}"
                     />
-                    <filter name="group_seccion" string="Por sección productiva"
+                    <filter name="group_seccion" string="Por Modulo"
                         context="{'group_by': 'productive_section'}"
                     />
                 </search>

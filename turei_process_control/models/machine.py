@@ -13,7 +13,7 @@ class Machine(models.Model):
 
     name = fields.Char('Nombre', size=40, required=True, copy=False, default=_get_default_name)
     machine_type_id = fields.Many2one('turei_process_control.machine_type', string='Tipo de máquina')
-    productive_section_id = fields.Many2one('turei_process_control.productive_section', string='Sección productiva')
+    productive_section_id = fields.Many2one('turei_process_control.productive_section', string='Modulo')
     set_of_peaces = fields.Many2many('turei_process_control.machine_set_of_peaces_nomenclature',
                                      relation="turei_process_control_peaces_machine", copy=True,
                                      column1='peaces_id', column2='machine_id', string='Subconjuntos de piezas')

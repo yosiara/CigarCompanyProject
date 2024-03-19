@@ -106,7 +106,7 @@ class TimeUseToExcelReport(ReportXlsx):
         worksheet.write('C4', tools.ustr('Mes'), merge_format)
         worksheet.write('D4', tools.ustr('Día'), merge_format)
         worksheet.write('E4', tools.ustr('Turno'), merge_format)
-        worksheet.write('F4', tools.ustr('Sección Productiva'), merge_format)
+        worksheet.write('F4', tools.ustr('Modulo'), merge_format)
         worksheet.write('G4', tools.ustr('Tiempo Total Planificado'), merge_format)
         worksheet.write('H4', tools.ustr('Tiempo Real Trabajado'), merge_format)
         worksheet.write('I4', tools.ustr('Tiempo Total de Interrupciones'), merge_format)
