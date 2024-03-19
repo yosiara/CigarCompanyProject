@@ -32,7 +32,7 @@
                                         <th>Línea productiva</th>
                                         <th>Tipo de Interrupción</th>
                                         <th>Cantidad</th>
-                                        <th>Tiempo</th>
+                                        <th>Tiempo(horas)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,7 +58,7 @@
                                                 <t t-set="total_linea_cantidad" t-value="total_linea_cantidad+docs[linea][tipo]['cantidad']"/>
                                             </td>
                                             <td>
-                                                <t t-esc="docs[linea][tipo]['tiempo']"/>
+                                                <t t-esc="round(docs[linea][tipo]['tiempo']/60.00,2)"/>
                                                 <t t-set="total_linea_tiempo" t-value="total_linea_tiempo+docs[linea][tipo]['tiempo']"/>
 
                                             </td>
@@ -71,7 +71,7 @@
                                                 <t t-esc="total_linea_cantidad"/>
                                             </td>
                                             <td>
-                                                <t t-esc="total_linea_tiempo"/>
+                                                <t t-esc="round(total_linea_tiempo/60.00,2)"/>
                                             </td>
                                         </tr>
                                         <t t-set="total_cantidad" t-value="total_cantidad+total_linea_cantidad"/>
@@ -85,7 +85,7 @@
                                             <t t-esc="total_cantidad"/>
                                         </th>
                                         <th>
-                                            <t t-esc="total_tiempo"/>
+                                            <t t-esc="round(total_tiempo/60.00,2)"/>
                                         </th>
                                     </tr>
                                 </tfoot>

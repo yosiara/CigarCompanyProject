@@ -112,11 +112,11 @@
                                     </td>
                                     <td>
                                         <t t-if="line['productive_line']">
-                                            <t t-esc="line['time']/60.00"/>
+                                            <t t-esc="round(line['time']/60.00,2)"/>
                                         </t>
                                         <t t-else="">
                                             <t t-set="count_lines_tmp" t-value="len(model.env['turei_process_control.productive_section'].search([('id', '=', line['productive_section'])]).productive_line_ids)"/>
-                                            <t t-esc="line['time']/60.00"/>
+                                            <t t-esc="round(line['time']/60.00,2)"/>
                                         </t>
                                     </td>
                                     <td>
@@ -137,7 +137,7 @@
                                     <t t-esc="round(sum_frequency_endo, 2)"/>
                                 </td>
                                 <td>
-                                    <t t-esc="sum_time_endo/60.00"/>
+                                    <t t-esc="round(sum_time_endo/60.00,2)"/>
                                 </td>
                                 <td> </td>
                             </tr>
@@ -197,11 +197,11 @@
                                     </td>
                                     <td>
                                         <t t-if="line['productive_line']">
-                                            <t t-esc="line['time']/60.00"/>
+                                            <t t-esc="round(line['time']/60.00,2)"/>
                                         </t>
                                         <t t-else="">
                                             <t t-set="count_lines_tmp" t-value="len(model.env['turei_process_control.productive_section'].search([('id', '=', line['productive_section'])]).productive_line_ids)"/>
-                                            <t t-esc="line['time']/60.00"/>
+                                            <t t-esc="round(line['time']/60.00,2)"/>
                                         </t>
                                     </td>
                                     <td>
@@ -222,7 +222,7 @@
                                     <t t-esc="round(sum_frequency_exogena, 2)"/>
                                 </td>
                                 <td>
-                                    <t t-esc="sum_time_exogena/60.00"/>
+                                    <t t-esc="round(sum_time_exogena/60.00,2)"/>
                                 </td>
                                 <td> </td>
                             </tr>

@@ -42,7 +42,7 @@ class InterruptionsToExcelReport(ReportXlsx):
         worksheet.write('I4', tools.ustr('Subconjunto'), merge_format)
         worksheet.write('J4', tools.ustr('Tipo de interrupción'), merge_format)
         worksheet.write('K4', tools.ustr('Exógena/Endógena'), merge_format)
-        worksheet.write('L4', tools.ustr('Tiempo (Minutos)'), merge_format)
+        worksheet.write('L4', tools.ustr('Tiempo (horas)'), merge_format)
         worksheet.write('M4', tools.ustr('Fecuencia'), merge_format)
 
         aux_row = 5
@@ -82,11 +82,11 @@ class InterruptionsToExcelReport(ReportXlsx):
 
                 if interruption.time:
                     if interruption.interruption_type.cause == 'exogena' and not interruption.productive_line_id:
-                        worksheet.write('L'+str(aux_row), interruption.time * 2, data_format)
+                        worksheet.write('L'+str(aux_row), round(interruption.time * 2 / 60.00,2), data_format)
                     elif not interruption.productive_line_id:
-                        worksheet.write('L'+str(aux_row), interruption.time * 2, data_format)
+                        worksheet.write('L'+str(aux_row), round(interruption.time * 2 / 60.00,2), data_format)
                     else:
-                        worksheet.write('L'+str(aux_row), interruption.time, data_format)
+                        worksheet.write('L'+str(aux_row), round(interruption.time / 60.00,2), data_format)
                 else:
                     worksheet.write('L'+str(aux_row), "", data_format)
 

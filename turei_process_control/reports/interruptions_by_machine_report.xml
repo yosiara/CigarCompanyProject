@@ -33,7 +33,7 @@
                                         <th>Subconjunto</th>
                                         <th>Tipo de Interrupción</th>
                                         <th>Cantidad</th>
-                                        <th>Tiempo</th>
+                                        <th>Tiempo(horas)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -70,7 +70,7 @@
                                                        t-value="total_linea_cantidad+docs[maquina][set_of_peace][tipo]['cantidad']"/>
                                                 </td>
                                                 <td>
-                                                    <t t-esc="docs[maquina][set_of_peace][tipo]['tiempo']"/>
+                                                    <t t-esc="round(docs[maquina][set_of_peace][tipo]['tiempo']/60.00,2)"/>
                                                     <t t-set="total_linea_tiempo"
                                                        t-value="total_linea_tiempo+docs[maquina][set_of_peace][tipo]['tiempo']"/>
 
@@ -85,7 +85,7 @@
                                                 <t t-esc="total_linea_cantidad"/>
                                             </td>
                                             <td>
-                                                <t t-esc="total_linea_tiempo"/>
+                                                <t t-esc="round(total_linea_tiempo/60.00,2)"/>
                                             </td>
                                         </tr>
                                         <t t-set="total_cantidad" t-value="total_cantidad+total_linea_cantidad"/>
@@ -99,7 +99,7 @@
                                             <t t-esc="total_cantidad"/>
                                         </th>
                                         <th>
-                                            <t t-esc="total_tiempo"/>
+                                            <t t-esc="round(total_tiempo/60.00,2)"/>
                                         </th>
                                     </tr>
                                 </tfoot>
