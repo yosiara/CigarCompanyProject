@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from odoo import models, fields, api, tools
+from odoo import models, fields, api, tools, _
 
 
 class EfficientReport(models.AbstractModel):
@@ -108,7 +108,10 @@ class EfficientReport(models.AbstractModel):
                 count_lines = len(self.env['turei_process_control.productive_section'].search([('id', '=', records_query[i]['productive_section'])]).productive_line_ids)
                 sum_production_done += records_query[i]['production_done']
                 sum_plan_time = (records_query[i]['plan_time'] * 60.0) + sum_plan_time
+                #if records_query[i]['productive_capacity']:
                 real_produccion_time += ((records_query[i]['production_done'] * 10000.0) / records_query[i]['productive_capacity']) / 60.0
+                #else:
+                #    raise ValueError(_("Division by zero not defined"))
                 productividad_real += (records_query[i]['plan_time'] * 60.0) * records_query[i]['productive_capacity']
                 if not records_query[i]['productive_line']:
                     sum_time_exogena_tmp = records_query[i]['time'] * count_lines_tmp if records_query[i]['cause'] == 'exogena' else 0.00
