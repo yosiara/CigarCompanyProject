@@ -8,13 +8,14 @@ from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
 class tecnolog_control_model(models.Model):
     _name = 'turei_process_control.tecnolog_control_model'
+    _translate = False
 
-    date = fields.Date(string="Fecha", required=True, copy=True)
+    date = fields.Date(string="Fecha", required=True, copy=True, default=fields.Date.today)
     year_char = fields.Char(string=u"Año", required=False, compute="_compute_year_char", store=True)
     day_char = fields.Char(string=u"Día", required=False, compute="_compute_day_char", store=True)
-    turn = fields.Many2one(comodel_name="resource.calendar", domain=[('turn_process_control', '=', True)], string="Turno", required=True, copy=True)
+    turn = fields.Many2one(comodel_name="resource.calendar", domain=[('turn_process_control', '=', True)], string="Turno", required=True, copy=True, default=0)
 
-    attendance_id = fields.Many2one('resource.calendar.attendance', string='Sesión', copy=True)
+    attendance_id = fields.Many2one('resource.calendar.attendance', string='Sesión', copy=True, default=0)
 
     productive_section = fields.Many2one(comodel_name="turei_process_control.productive_section",
                                          string="Modulo",
@@ -61,6 +62,11 @@ class tecnolog_control_model(models.Model):
     @api.model
     def default_get(self, fields):
         res = super(tecnolog_control_model, self).default_get(fields)
+        rec_last = self.search([], order='id desc', limit=1)
+        if rec_last:
+            res["date"] = rec_last.date
+            res["turn"] = int(rec_last.turn)
+            res["attendance_id"] = int(rec_last.attendance_id)
         return res
 
     @api.multi
